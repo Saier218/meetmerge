@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/trips/list/list",
+    "pages/trips/create/create",
+    "pages/trips/detail/detail",
+    "pages/trips/join/join",
+    "components/availability-editor",
+    "pages/index/index",
+    "pages/example/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/trips/availability",
+      "pages": [
+        "edit/edit",
+        "heatmap/heatmap"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "行程小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}
